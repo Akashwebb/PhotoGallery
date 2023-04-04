@@ -1,0 +1,106 @@
+#body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background-color: bisque;
+    
+}
+#top-img{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 70px;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(6, 88, 87);
+}
+#text{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 290px;
+    border-radius: 20px;
+    height: 24px;
+    padding: 5px 20px;
+}
+#post{
+    margin-left: 300px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(14, 203, 14);
+    border: 3px solid rgb(2, 52, 2);
+}
+#post:hover{
+    background-color: rgb(119, 241, 119);
+    border: 3px solid rgb(239, 78, 10);
+}
+#add{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+#cart{
+    display: inline-block;
+    position: relative;
+}
+img{
+    margin: 20px 10px;
+}
+#label{
+    position: absolute;
+    left:110px;
+    bottom: 30px;
+    color: rgb(245, 242, 242);
+    font-weight: 700;
+    font-size: 38px;
+}
+#delete{
+    position: absolute;
+    right:40px;
+    top: 30px;
+    border: 3px solid red;
+    background: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+#f1{
+    position: absolute;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    top: 250px;
+    left: 390px;
+    padding: 20px 30px;
+    width: 350px;
+    height: 250px;
+}
+.naming{
+    font-size: 25px;
+    font-weight: 700;
+}
+.nam{
+    width: 200px;
+    height: 20px;
+    padding: 2px 20px;
+}
+.naminging{
+    margin-left: 70px;
+    color: rgb(70, 60, 7);
+}
+#butt{
+    margin-left: 240px;
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+    font-size: 18px;
+    font-weight: 600;
+    border: 4px solid rgb(84, 84, 4);
+}
+#but{
+    position: absolute;
+    bottom: 24px;
+    left: 160px;
+    width: 100px;
+    height: 30px;
+    background-color: whitesmoke;
+}
